@@ -6,7 +6,7 @@
 virtual class CarPart{
   public:
   
-    virtual void PartChanged();
+    virtual void PartChanged() = 0;
     
   protected:
   
